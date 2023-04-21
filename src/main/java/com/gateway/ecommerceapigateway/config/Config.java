@@ -11,6 +11,9 @@ public class Config {
     @Bean
     public RouteLocator route(RouteLocatorBuilder builder) {
         return builder.routes()
+                .route("users-api", predicateSpec ->
+                        predicateSpec.path("/users/**")
+                                .uri("http://localhost:8083"))
                 .route("orders-api", predicateSpec ->
                         predicateSpec.path("/orders/**")
                 .uri("http://localhost:8082"))
