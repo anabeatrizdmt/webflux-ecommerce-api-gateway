@@ -5,7 +5,16 @@ This project is an API gateway for an e-commerce system. It is written in Java a
 **Note:** This API is part of a larger e-commerce system that includes product catalog management and user management. To run the complete system, you must also run the [WebFlux Catalog API](https://github.com/anabeatrizdmt/webflux-catalog), the [WebFlux Users API](https://github.com/anabeatrizdmt/webflux-users), and the [WebFlux Orders API](https://github.com/anabeatrizdmt/webflux-orders).
 
 
+## Table of Contents
 
+- [Requirements](#requirements)
+- [Installation and Setup](#installation-and-setup)
+- [Usage](#usage)
+  - [Endpoints](#endpoints)
+  - [Routing](#routing)
+- [Dependencies](#dependencies)
+  
+  
 ## Requirements
 
 - Java 11 or higher
